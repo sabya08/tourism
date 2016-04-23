@@ -80,7 +80,7 @@ width:952px;
 height:36px;
 line-height:36px;
 padding:0 0 0 32px;
-background-image:url(images/menu_bg.gif);
+background-image:url(images/tourism/menu_bg.gif);
 background-position:top left;
 background-repeat:repeat-x;
 float:left;
@@ -100,25 +100,32 @@ margin:0 15px;
 width:962px;
 overflow:hidden;
 padding:32px 0 150px 22px;
-background-image:url(images/bg.jpg);
+background-image:url(images/tourism/bg.jpg);
 background-position:top left;
 background-repeat:no-repeat
 }
+#wrapper2{
+    width:962px;
+    overflow:hidden;
+    padding:32px 0 150px 22px;
+    background-position:top left;
+    background-repeat:no-repeat
+}
 #left{
-float:left;
+/*float:left;*/
 width:455px;
 }
 .column{
 width:134px;
 float:left;
 margin:0 7px 0 0;
-background-image:url(images/bg_c.gif);
+background-image:url(images/tourism/bg_c.gif);
 background-position:top left;
 background-repeat:repeat-y;
 }
 .column div{
 width:134px;
-background-image:url(images/bg_c_b.gif);
+background-image:url(images/tourism/bg_c_b.gif);
 background-position:bottom left;
 background-repeat:no-repeat;
 }
@@ -136,9 +143,9 @@ padding:0 0 7px 25px;
 background-position:top left;
 background-repeat:no-repeat
 }
-.column .title1{background-image:url(images/title1_bg.gif);}
-.column .title2{background-image:url(images/title2_bg.gif);}
-.column .title3{background-image:url(images/title3_bg.gif);}
+.column .title1{background-image:url(images/tourism/title1_bg.gif);}
+.column .title2{background-image:url(images/tourism/title2_bg.gif);}
+.column .title3{background-image:url(images/tourism/title3_bg.gif);}
 .c2{
 margin-top:33px
 }
@@ -194,7 +201,7 @@ height:247px;
 float:left;
 margin:0 0 25px 0;
 padding:29px 0 0 38px;
-background-image:url(images/search_bg.gif);
+background-image:url(images/tourism/search_bg.gif);
 background-position:top left;
 background-repeat:no-repeat;
 font-family:Tahoma;
@@ -326,7 +333,7 @@ margin:0 0 0 5px
 #right .photo a:hover{text-decoration:none}
 #left{
 float:left;
-padding:300px 0 0 0;
+padding:0px 0 0 0;
 font-family:Arial, Helvetica, sans-serif;
 font-size:11px;
 color:#333333;
@@ -356,7 +363,7 @@ margin:0 0 0 5px
 #left .photo a:hover{text-decoration:none}
 #more, #all{
 display:block;
-background-image:url(images/more_bg.gif);
+background-image:url(images/tourism/more_bg.gif);
 background-position:top left;
 background-repeat:no-repeat;
 width:105px;

@@ -1,12 +1,13 @@
-<%@include file="header2.jsp" %>
+<%@include file="header.jsp" %>
+<%@include file="footer.jsp" %>
 
 <%@page import="java.util.*" %>
 <%@page import="java.io.*" %>
 <%@page import="tourism.*" %>
 <%@page import="java.text.*" %>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
-<script src="themes/1/js-image-slider.js" type="text/javascript"></script>
+<%--<link rel="stylesheet" type="text/css" href="css/style.css">--%>
+<link rel="stylesheet" type="text/css" href="style.css">
+
  <script type="text/javascript" src="JS/javascript.js"></script>
 
 <link href="css/generic.css" rel="stylesheet" type="text/css" />
@@ -31,7 +32,7 @@ try{
 %>
 	<br>
 				<div id="container">
-				<div id="wrapper">
+				<%--<div id="wrapper">--%>
 				<div id="sliderFrame">
 
 
@@ -60,13 +61,13 @@ try{
                 
                 <div> 
                 <input type="submit" name="button" value="Register" />
-                <div id="slider">
-					<a href="images/mainpage/image1.jpg" target="_blank">
-					<img src="images/mainpage/images1.jpg" alt="Welcome to elexTore.com" />
-					</a>
-					<img src="images/mainpage/images2.jpg" alt="" />
-					<img src="images/mainpage/images3.jpg" alt="" />
-					</div>
+                <%--<div id="slider">--%>
+					<%--<a href="images/mainpage/image1.jpg" target="_blank">--%>
+					<%--<img src="images/mainpage/images1.jpg" alt="Welcome to elexTore.com" />--%>
+					<%--</a>--%>
+					<%--<img src="images/mainpage/images2.jpg" alt="" />--%>
+					<%--<img src="images/mainpage/images3.jpg" alt="" />--%>
+					<%--</div>--%>
             </fieldset>  
 
         </form>

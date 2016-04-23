@@ -24,7 +24,7 @@ try{
 				
 		
 				<div id="container">
-				<div id="wrapper">
+				<%--<div id="wrapper">--%>
 				<div id="sliderFrame">
         <form action="SignIn" method="get" name="loginForm" >
             <fieldset align="center">
@@ -40,13 +40,13 @@ try{
                 
                 <input type="submit" value="Sign In">
                 <h4 style="color:red"><%=error%></h4>
-                <div id="slider">
-					<a href="images/mainpage/imagel1.jpg" target="_blank">
-					<img src="images/mainpage/imagel1.jpg" alt="Welcome to elexTore.com" />
-					</a>
-					<img src="images/mainpage/imagel2.jpg" alt="" />
-					<img src="images/mainpage/imagel3.jpg" alt="" />
-					</div>
+                <%--<div id="slider">--%>
+					<%--<a href="images/mainpage/imagel1.jpg" target="_blank">--%>
+					<%--<img src="images/mainpage/imagel1.jpg" alt="Welcome to elexTore.com" />--%>
+					<%--</a>--%>
+					<%--<img src="images/mainpage/imagel2.jpg" alt="" />--%>
+					<%--<img src="images/mainpage/imagel3.jpg" alt="" />--%>
+                <%--</div>--%>
             </fieldset>    
         </form>
     </div>

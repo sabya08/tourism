@@ -9,14 +9,13 @@
 <body>
 <div id="footer">
 		<ul>
-			<li><a href="index.html">Home Page</a> |</li>
-			<li><a href="index2.html">About Company</a> |</li>                                                                                                                                                                                                                                                                                                                                                            <div class="inner_copy"><a href="http://www.blogher.com/worlds-top-10-most-unusual-hotels-wont-leave-you-indifferent">World's Top 10 Most Unusual Hotels That Won't Leave You Indifferent</a></div>
-			<li><a href="index2.html">Hot Tours</a> |</li>
-			<li><a href="index2.html">Hotels</a> |</li>
-			<li><a href="index2.html">Services</a> |</li>
-			<li><a href="index2.html">Reviews</a> |</li>
-			<li><a href="index2.html">Partners</a> |</li>
-			<li><a href="index2.html">Contact us</a></li>
+			<li><a href="">About Company</a> |</li>                                                                                                                                                                                                                                                                                                                                                            <div class="inner_copy"><a href="http://www.blogher.com/worlds-top-10-most-unusual-hotels-wont-leave-you-indifferent">World's Top 10 Most Unusual Hotels That Won't Leave You Indifferent</a></div>
+			<li><a href="">Hot Tours</a> |</li>
+			<li><a href="">Hotels</a> |</li>
+			<li><a href="">Services</a> |</li>
+			<li><a href="">Reviews</a> |</li>
+			<li><a href="">Partners</a> |</li>
+			<li><a href="">Contact us</a></li>
 		</ul>
 																						
 	</div>

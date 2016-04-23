@@ -10,7 +10,7 @@
 <div id="header">
 		  <span id="account"><a href="#">My Account</a></span>
         <br>
-	<div>
+<div>
 	<span>
 	<img src="images/tourism/logo.png" width="100px;"></img>
 	<img src="images/tourism/Tourist.jpg" width="580px;"></img>
@@ -20,10 +20,12 @@
 		<ul id="menu">
 			<li><a href="index.html">Home Page</a></li>
 			<li><a href="index2.html">About Us</a></li>
-			<li><a href="index2.html">Trip Planner</a></li>
+			<li><a href="tripplanner.jsp">Trip Planner</a></li>
 			<li><a href="index2.html">Tourist Attraction</a></li>
 			<li><a href="index2.html">Favourite List</a></li>
 			<li><a href="index2.html">Connect Nearest Tourist</a></li>
 		</ul>
+	<div id="wrapper">
+	</div>
 </body>
 </html>
