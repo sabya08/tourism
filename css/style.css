@@ -1,0 +1,772 @@
+#wrapper {
+       width: 450px;
+
+font-family: Verdana,sans-serif;
+margin-left: 15%;
+    }
+    legend {
+        color:#0481b1;
+        font-size:16px;
+        padding:0 10px;
+        background:#fff;
+        -moz-border-radius:4px;
+        box-shadow: 0 1px 5px rgba(4, 129, 177, 0.5);
+        padding:5px 10px;
+        text-transform:uppercase;
+        font-family:Helvetica, sans-serif;
+        font-weight:bold;
+    }
+    fieldset {
+        border-radius:4px;
+        width:300px;
+        background: #fff; 
+        background: -moz-linear-gradient(#fff, #f9fdff);
+        background: -o-linear-gradient(#fff, #f9fdff);
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#f9fdff)); /
+        background: -webkit-linear-gradient(#fff, #f9fdff);
+        padding:20px;
+        border-color:rgba(4, 129, 177, 0.4);
+    }
+    input,
+    textarea {
+        color: #373737;
+        background: #fff;
+        border: 1px solid #CCCCCC;
+        color: #aaa;
+        font-size: 14px;
+        line-height: 1.2em;
+        margin-bottom:15px;
+
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+    input[type="text"],
+    input[type="password"]{
+        padding: 8px 6px;
+        height: 40px;
+        width:280px;
+    }
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+        background:#f5fcfe;
+        text-indent: 0;
+        z-index: 1;
+        color: #373737;
+        -webkit-transition-duration: 400ms;
+        -webkit-transition-property: width, background;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-duration: 400ms;
+        -moz-transition-property: width, background;
+        -moz-transition-timing-function: ease;
+        -o-transition-duration: 400ms;
+        -o-transition-property: width, background;
+        -o-transition-timing-function: ease;
+        width: 380px;
+        
+        border-color:#ccc;
+        box-shadow:0 0 5px rgba(4, 129, 177, 0.5);
+        opacity:0.6;
+    }
+    input[type="button"]{
+        background: #222;
+        border: none;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+        text-transform:uppercase;
+        color: #eee;
+        cursor: pointer;
+        font-size: 15px;
+        margin: 5px 0;
+        padding: 5px 22px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-border-radius:4px;
+        -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    }
+    textarea {
+        padding:3px;
+        width:96%;
+        height:100px;
+    }
+    textarea:focus {
+        background:#ebf8fd;
+        text-indent: 0;
+        z-index: 1;
+        color: #373737;
+        opacity:0.6;
+        box-shadow:0 0 5px rgba(4, 129, 177, 0.5);
+        border-color:#ccc;
+    }
+    .small {
+        line-height:14px;
+        font-size:12px;
+        color:#999898;
+        margin-bottom:3px;
+    }
+
+
+//-------------
+body 
+{
+
+font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size: 13px;
+line-height: 16px;
+
+margin:0%;
+float:left;
+width:100%;
+}
+
+body  #container 
+{
+padding-top:10px;
+width:1370px;
+margin:0 auto;
+background:white;
+}
+
+#container .header 
+{
+float:left;
+width:100%;
+}
+
+.logo
+{
+float:left;
+width:35%;
+background-image: url("../images/mainpage/eleXtore_logo.png");
+background-repeat: no-repeat;
+height:140px;
+}
+
+.links 
+{
+margin-top:68px;
+float:left;
+width:65%;
+
+}
+
+.links ul 
+{
+float:left;
+width:65%;
+	
+}
+
+.links .cart 
+{
+float: left;
+width: 10%;
+background-image: url('../images/1.jpg');
+background-repeat: no-repeat;
+height: 61px;
+cursor: pointer;
+}
+.links .cart_full 
+{
+float: left;
+width: 10%;
+background-image: url('../images/2.png');
+background-repeat: no-repeat;
+height: 61px;
+cursor: pointer;
+
+}
+
+.links  p 
+{
+margin-top:20px;
+width:5%;
+float:left;
+
+}
+
+.links ul li 
+{
+list-style-type: none;
+display: inline;
+}
+
+.links ul li a 
+{
+
+margin-left:1%;
+margin-right:1%;
+color: #757575;
+font: bold 12px/30px;
+}
+a 
+{
+text-decoration: none;
+}
+.links ul li  a 
+{
+}
+.headertop_desc{
+    padding:20px 0;
+    height:20px;
+    border-bottom:1px solid #EEE;
+}
+.call{
+    float:left;
+}
+.call p{
+    font-size:1.2em;
+    color:#9C9C9C;
+}
+.call p span{
+    color:#303030;
+    font-size:1em;
+    font-weight:bold;
+}
+.call p span.number{
+    color:#E4292F;
+    font-size:1em;
+    letter-spacing:1px;
+}
+.account_desc{
+    float:right;
+}
+.account_desc li{
+    display:inline;
+    border-left:1px dotted #CCC;
+}
+.account_desc li:first-child{
+    border:none;
+}
+.account_desc li a{
+    font-size:1.2em;
+    color:#30A2DE;
+    padding:0 10px;
+    font-family: 'ambleregular';
+}
+.account_desc li a:hover{
+    color:#E4292F;
+}
+.header_top {
+    padding: 20px 0;
+}
+
+#container .navigatation 
+{
+float:left;
+width:100%;
+background:#30A2DE;
+color:white;
+}
+
+#container .navigatation ul {
+
+float:left;
+width:70%;
+padding-top:5px;
+padding-bottom:5px;
+
+}
+#container .navigatation .search 
+{
+float:left;
+width:25%;
+margin-top:20px;
+}
+
+#container .navigatation .search  form 
+{
+float:left;
+width:75%;
+border: 2px solid;
+border-radius: 25px;
+padding:0px;
+
+}
+
+#container .navigatation .search  form table { 
+
+position: absolute;
+left: 1073px;
+top: 184px;
+z-index: 5;
+width: 17.1%;
+margin:0px;
+	
+}
+
+#complete-table 
+{
+padding-top: 17px;
+border:none;
+border-bottom:2px black solid; 
+border-right:2px black solid; 
+border-left:2px black solid; 
+
+
+}
+#complete-table  tr  td a 
+{
+color:black;
+}
+
+#complete-table  tr 
+{
+border:none;
+background:white;
+padding:0px;
+}
+#complete-table  td 
+{
+border:none;
+}
+#complete-table  a 
+{
+}
+
+#container .navigatation .search  form table tr 
+{
+border:none;
+}
+
+#container .navigatation .search  input[type="text"] 
+{
+float:left;
+width:70%;
+height:25px;
+padding:0;
+margin:0;
+border:none;
+border-radius: 25px;
+border-left: 2px solid white;
+} 
+
+#container .navigatation .search  input[type="submit"] 
+{
+float:left;
+width:39%;
+padding:0;
+margin:0;
+height:25px;	
+border:none;
+margin-left:-24.8px;
+border-radius: 25px;
+border-right: 2px solid white;
+background-image: url("../images/search.png");
+background-repeat: no-repeat;
+} 
+
+
+#container .navigatation .search  input 
+{
+float:left;
+width:40%;
+
+}
+
+
+#container .navigatation ul li 
+{
+	list-style-type: none;
+	display: inline;
+	margin-bottom:20px;
+
+}
+
+#container .navigatation ul li  a 
+{
+color:white;
+text-align:center;
+ font-size: 16px;
+ font-weight:700;
+margin-left:1%;
+	margin-right:1%;
+ }
+#container .navigatation ul li  a :hover 
+{
+color:green;
+}
+.categories{
+    border:1px solid #EEE;
+    padding-left: 0px;
+}
+.categories h2{
+    font-size:1.2em;
+    color:#FFF;
+    padding:10px;
+    background:#003366;
+    text-transform:uppercase;
+    font-family: 'ambleregular';    
+}
+.categories tr td a{
+    display:block;
+    font-size:1.1em;
+    padding:8px 15px;
+    color: #30A2DE;
+    font-family: 'ambleregular';
+    margin:0 20px;
+    background:url(../images/drop_arrow.png) no-repeat 0;
+    border-bottom: 1px solid #EEE;
+    text-transform:uppercase;   
+}
+.categories td:last-child a{
+    border:none;
+}
+.categories td a:hover{
+    color:#9C9C9C;
+}
+
+
+.itemgrid 
+{
+clear:left;
+float:left;
+width:100%;
+padding-top:20px;
+padding-bottom:20px;
+background:white;
+}
+.itemgrid h3
+{
+float:left;
+width:100%;
+margin-left:5%;
+}
+
+.itemgrid .items {
+clear:left;
+float:left;
+width:100%;
+padding-top:20px;
+color:blue;
+
+}
+
+.itemgrid .items ul 
+{
+float:left;
+width:100%;
+
+}
+
+.itemgrid .items ul li 
+{
+background:F7F7F7;
+float:left;
+width:23%;
+margin-right:1%;
+border:solid #757575 1px;
+list-style-type: none;
+margin-bottom:5px;
+}
+
+.itemgrid .items ul li img 
+{
+width:95%;
+margin:5px;
+}
+
+.itemgrid .items ul li h3 
+{
+clear:left;
+float:left;
+width:100%;
+margin-left:1px;
+}
+.itemgrid .items ul li p 
+{
+color:#30A2DE;
+margin-left:1%;
+}
+.itemgrid .items ul li p a 
+{
+margin-left:10%;
+color:#30A2DE;
+}
+
+.footer 
+{
+clear:left;
+float:left;
+width:100%;
+background:#30A2DE;
+}
+.footer  p 
+{
+color: white;
+margin-left:20px;
+}
+
+
+.orders { 
+clear:left;
+ float:left; 
+ width:100%; 
+ background:white; 
+ padding-top:40px; 
+}
+
+.orders .order { 
+clear:left;
+float:left;
+width:100%;
+margin-top:10px;
+margin-left:3%;
+ } 
+ .orders .order img {
+ padding:1%;
+ float:left;
+ width:15%; 
+ border:2px solid #aaa;
+
+}
+
+.orders .order .orderdetail { float:left; width:75%; margin-left:1%; }
+
+.orders .order .orderdetail h1 
+{
+margin-top:0;
+}
+
+.orders .order .orderdetail p
+{
+margin-top:4px;
+}
+
+.orders .order .orderdetail input 
+{
+
+width:125px;
+height:35px;
+}
+
+.backform 
+{
+clear:left;
+float:left;
+margin-left:35%;
+width:50%;
+margin-top:20px;
+}
+.backform form 
+{
+
+
+float:left;
+width:30%;
+}
+
+.backform form  input 
+{
+height:30px;
+padding:5px;
+color:white;
+background:black;
+
+}
+
+
+#order_form 
+{
+background:white;
+padding-bottom:50px;
+clear:left;
+float:left;
+width:100%;
+}
+
+#vieworder_page 
+{
+padding-top:30px;
+background:white;
+clear:both;
+float:left;
+width:100%;
+}
+
+
+#vieworder_page .searchorder 
+{
+clear:left;
+float:left;
+width:100%;
+}
+
+#vieworder_page .searchorder  input 
+{
+height:30px;
+}
+
+#vieworder_page  h2 
+{
+float:left;
+width:100%;
+}
+
+#orderno 
+{
+clear:both;
+float:left;
+width:90%;
+margin-left:3%;
+margin-right:3%;
+margin-top:10px;
+
+border:1px solid black;
+}
+
+#orderno  table 
+{
+
+float:left;
+width:100%;
+}
+
+#orderno .productdetails 
+{
+clear:both;
+float:left;
+width:100%;
+} 
+#vieworder_page h4
+{
+
+clear:both;
+float:left;
+width:100%;
+margin-top:5px;
+}
+
+#deleteorder 
+{
+clear:both;
+float:left;
+width:100%;
+margin-left:5%;
+margin-top:20px;
+}
+
+#deleteorder  input 
+{
+height:30px;
+}
+
+#checkout_order p
+{
+font-size:16px;
+margin:0;
+margin-top:5px;
+}
+
+.products
+{
+font-family: normal 0.9em Arial;
+	color: #30A2DE;
+	margin: 0;
+	padding: 0px 0px 3px 0px;
+	font-size: 25px;
+	line-height: 44pxnt	letter-spacing: 0px;t
+	font-weight: bold;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.acolor{
+    color:#30A2DE;
+    font-size:20px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #30A2DE;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #084B8A;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 99;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FAFAFA;
+    min-width: 320px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.search_box input {
+  background: #F0F0E9;
+  border: medium none;
+  color: #B2B2B2;
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 300;
+  height: 35px;
+  outline: medium none;
+  padding-left: 10px;
+  width: 155px;
+  background-image: url(../images/home/searchicon.png);
+  background-repeat: no-repeat;
+  background-position: 130px;
+}
+.col-sm-3{
+  overflow: hidden;
+}
+
+.horizontal { display: inline; background-color: aqua; }
+
+input:required {
+  box-shadow: 4px 4px 20px rgba(200, 0, 0, 0.85);
+}
+
+
+input:required:focus {
+  border: 1px solid red;
+  outline: none;
+}
+
+
+input:required:hover {
+  opacity: 1;
+}
