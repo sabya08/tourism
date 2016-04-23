@@ -1,5 +1,6 @@
-<%@include file="Header.jsp" %>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<%@include file="header.jsp" %>
+<%@include file="footer.jsp" %>
+<link rel="stylesheet" type="text/css" href="style.css">
 <link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
 <script src="themes/1/js-image-slider.js" type="text/javascript"></script>
  
