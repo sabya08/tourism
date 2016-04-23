@@ -1,6 +1,6 @@
 
-<%@page import="mybean.CatalogItem" %>
-<%@page import="myclasses.Catalog" %>
+<%@page import="tourism.*" %>
+<%@page import="tourism.*" %>
 <%@page import="java.util.*" %>
 <%@page import="java.io.*" %>
 

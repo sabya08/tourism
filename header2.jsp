@@ -29,8 +29,7 @@
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.text.DateFormat"%>
-<%@page import="beans.*"%>
-<%@page import="servlets.*"%>
+<%@page import="tourism.*"%>
 <%@page import="java.util.*"%>
 <%@page import="javax.mail.*"%>
 <%@page import="javax.mail.internet.*"%>

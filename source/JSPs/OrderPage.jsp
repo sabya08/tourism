@@ -12,7 +12,7 @@ http://www.coreservlets.com/.
 
 <%@page import="java.util.*" %>
 <%@page import="java.io.*" %>
-<%@page import="mybean.*" %>
+<%@page import="tourism.*" %>
 <%@page import="java.text.*" %>
 <%
    

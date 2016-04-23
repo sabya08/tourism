@@ -1,7 +1,7 @@
 <%@include file="header2.jsp" %>
 
 <%
-        MongoClient mongo = new MongoClient("52.11.50.218", 27017);
+        MongoClient mongo = new MongoClient("localhost", 27017);
         String from=request.getParameter("from");
         
         String productId="";

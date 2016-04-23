@@ -1,3 +1,5 @@
+package tourism;
+
 import java.util.Date;
 import java.util.Calendar;
 import java.text.DateFormat;
@@ -7,17 +9,7 @@ import javax.servlet.*;
 import java.util.Random;
 import javax.servlet.http.*;
 import java.util.*;
-import mybean.UserBean;
 
-/** Shows all the parameters sent to the servlet via either
- *  GET or POST. Specially marks parameters that have
- *  no values or multiple values.
- *  <P>
- *  Taken from Core Servlets and JavaServer Pages 2nd Edition
- *  from Prentice Hall and Sun Microsystems Press,
- *  http://www.coreservlets.com/.
- *  &copy; 2003 Marty Hall; may be freely used or adapted.
- */
 @SuppressWarnings("unchecked")
 public class LogOutServlet extends HttpServlet {
   public void doGet(HttpServletRequest request,
@@ -32,10 +24,10 @@ public class LogOutServlet extends HttpServlet {
 	out.println(docType +"<HTML>\n");
     
 	request.getSession().invalidate();
+  request.getRequestDispatcher("/signin.jsp").forward(request, response);
 	out.println("<font color='RED'><h3>Logout SuccessFully.... Click Below if you want to Continue Shopping.. </h3></font>");
-	out.println("<a href= '/sports4hawks/index.jsp'> Contiue Shopping </a>");
+	out.println("<a href= 'index.jsp'> Contiue Shopping </a>");
 
-	//response.sendRedirect( "/sports4hawks/index.jsp" );
   }
 
   public void doPost(HttpServletRequest request,

@@ -1,4 +1,4 @@
-<%@page import="mybean.CatalogItem" %>
+<%@page import="tourism.*" %>
 
 <%@include file="Header.jsp"%>
 

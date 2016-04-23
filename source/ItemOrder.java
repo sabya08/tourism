@@ -1,4 +1,4 @@
-package mybean;
+package tourism;
 
 /** Associates a catalog Item with a specific order by
  *  keeping track of the number ordered and the total price.

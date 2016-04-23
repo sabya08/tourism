@@ -1,4 +1,4 @@
-package servlets;
+package tourism;
 
 import java.util.Date;
 import java.util.Calendar;
@@ -19,8 +19,7 @@ import com.mongodb.DBObject;
 import com.mongodb.DBCursor;
 import com.mongodb.ServerAddress;
 import org.bson.types.ObjectId;
-import servlets.*;
-import beans.*;
+
 
 
 public class SubmitReview extends HttpServlet {
@@ -28,7 +27,7 @@ public class SubmitReview extends HttpServlet {
 
     public void init() throws ServletException{
         // Connect to Mongo DB
-        mongoClient = new MongoClient("52.11.50.218", 27017);
+        mongoClient = new MongoClient("localhost", 27017);
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)

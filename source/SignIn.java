@@ -1,3 +1,5 @@
+package tourism;
+
 import java.io.*;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -23,7 +25,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 import java.util.Date;
-import beans.UserBean;
+
 
 
 public class SignIn extends HttpServlet {
@@ -34,7 +36,7 @@ public class SignIn extends HttpServlet {
 	
 	public void init() throws ServletException{
       	// Connect to Mongo DB
-		mongo = new MongoClient("52.11.50.218", 27017);
+		mongo = new MongoClient("localhost", 27017);
 	}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

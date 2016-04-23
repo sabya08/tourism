@@ -1,3 +1,4 @@
+package tourism;
 import java.util.Date;
 import java.util.Calendar;
 import java.text.DateFormat;
@@ -7,7 +8,6 @@ import javax.servlet.*;
 import java.util.Random;
 import javax.servlet.http.*;
 import java.util.*;
-import mybean.UserBean;
 
 /** Shows all the parameters sent to the servlet via either
  *  GET or POST. Specially marks parameters that have

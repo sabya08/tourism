@@ -1,4 +1,4 @@
-<%@page import="beans.UserBean" %>
+<%@page import="tourism.*" %>
 <html>
 <TITLE>elexTore</TITLE>
 

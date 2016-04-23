@@ -1,4 +1,4 @@
-package servlets;
+package tourism;
 
 import java.io.IOException;
 import javax.servlet.ServletConfig;
@@ -26,7 +26,7 @@ public class InitServlet extends HttpServlet {
     MongoClient mongo = null;
     DB db = null;
     private InitServlet(){
-        mongo = new MongoClient("52.11.50.218", 27017);
+        mongo = new MongoClient("localhost", 27017);
         db = mongo.getDB("Elextore");
     }
 

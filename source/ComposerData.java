@@ -1,7 +1,7 @@
+package tourism;
 
 import java.util.HashMap;
 import java.util.ArrayList;
-import beans.*;
 import java.io.IOException;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;

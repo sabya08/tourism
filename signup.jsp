@@ -2,7 +2,7 @@
 
 <%@page import="java.util.*" %>
 <%@page import="java.io.*" %>
-<%@page import="mybean.*" %>
+<%@page import="tourism.*" %>
 <%@page import="java.text.*" %>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
@@ -35,9 +35,9 @@ try{
 				<div id="sliderFrame">
 
 
-        <form action="SignUp" method="post" name="signupForm" onsubmit="return validateInfo()">
+        <form action="/tourism/SignUp" method="post" name="signupForm" onsubmit="return validateInfo()">
 
-        <form action="SignUp" method="POST" name="signupForm" >
+        <form action="/tourism/SignUp" method="POST" name="signupForm" >
 
             <fieldset align="center">
                 <legend>Register Form</legend>

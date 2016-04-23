@@ -1,3 +1,4 @@
+package tourism;
 
 import java.io.IOException;
 import javax.servlet.ServletConfig;
@@ -12,7 +13,7 @@ import java.lang.System;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import beans.*;
+
 
 public class AutoCompleteServlet extends HttpServlet {
 

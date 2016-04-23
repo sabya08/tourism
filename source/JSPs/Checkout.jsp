@@ -1,6 +1,6 @@
 <%@page import="java.util.*" %>
 <%@page import="java.io.*" %>
-<%@page import="mybean.*" %>
+<%@page import="tourism.*" %>
 <%@page import="java.text.*" %>
 
 <%  Random r = new Random( System.currentTimeMillis() );

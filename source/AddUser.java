@@ -1,3 +1,4 @@
+package tourism;
 import java.util.Date;
 import java.util.Calendar;
 import java.text.DateFormat;
@@ -130,7 +131,7 @@ MongoClient mongo;
 			
 			
 		// }	
-      }catch(IOException i)
+      }catch(Exception i)
       {
          mess="FAIL";
 		 i.printStackTrace();

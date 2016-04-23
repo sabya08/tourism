@@ -1,7 +1,7 @@
 <%@include file="Header.jsp" %>
 
 <%
-MongoClient mongo = new MongoClient("52.11.50.218", 27017);     
+MongoClient mongo = new MongoClient("localhost", 27017);
         HttpSession s=request.getSession();
        
         Boolean isCancelled=false;         

@@ -1,4 +1,4 @@
-<%@page import="beans.*" %>
+<%@page import="tourism.*" %>
 <%@page import="java.util.*" %>
 <%@page import="java.io.*" %>
 

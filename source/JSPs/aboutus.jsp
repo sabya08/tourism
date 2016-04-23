@@ -1,4 +1,4 @@
-<%@page import="mybean.UserBean" %>
+<%@page import="tourism.*" %>
 <html>
 <TITLE>Sport4Hawks</TITLE>
 <head>

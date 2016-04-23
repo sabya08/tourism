@@ -1,4 +1,4 @@
-package myclasses;	
+package tourism;
 
 /** A catalog that lists the items available in inventory.
  *  <P>
@@ -7,7 +7,6 @@ package myclasses;
  *  http://www.coreservlets.com/.
  *  &copy; 2003 Marty Hall; may be freely used or adapted.
  */
-import mybean.CatalogItem;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.io.*;

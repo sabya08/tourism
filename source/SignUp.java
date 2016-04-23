@@ -1,3 +1,5 @@
+package tourism;
+
 import java.io.*;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -20,7 +22,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 import java.util.Date;
-import beans.UserBean;
+
 
 public class SignUp extends HttpServlet {
 	

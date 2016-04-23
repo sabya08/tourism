@@ -12,8 +12,8 @@ http://www.coreservlets.com/.
 
 <%@page import="java.util.ArrayList" %>
 <%@page import="java.io.*" %>
-<%@page import="mybean.CatalogItem" %>
-<%@page import="myclasses.Catalog" %>
+<%@page import="tourism.*" %>
+<%@page import="tourism.*" %>
 <%@page import="java.util.HashMap" %>
 <%@page import="java.util.Iterator" %>
 

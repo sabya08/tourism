@@ -1,7 +1,7 @@
 <%@include file="Header.jsp"%>
 
 <%
- MongoClient mongo = new MongoClient("52.11.50.218", 27017);
+ MongoClient mongo = new MongoClient("localhost", 27017);
         String address = request.getParameter("address");
            String cardno = request.getParameter("cardNum");
             String validity = request.getParameter("validity");

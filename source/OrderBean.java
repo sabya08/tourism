@@ -1,4 +1,5 @@
-package mybean;
+package tourism;
+
 import java.util.List;
 
 

@@ -1,5 +1,4 @@
-package mybean;
-
+package tourism;
 import java.util.*;
 import java.io.*;
 

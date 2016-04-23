@@ -1,4 +1,4 @@
-package mybean;
+package tourism;
 
 /** Describes a catalog item for on-line store. The itemID
  *  uniquely identifies the item, the short description
@@ -13,6 +13,10 @@ package mybean;
  *  http://www.coreservlets.com/.
  *  &copy; 2003 Marty Hall; may be freely used or adapted.
  */
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.io.*;
+import java.util.Iterator;
 
 public class CatalogItem implements java.io.Serializable{
   public CatalogItem(String itemID, String shortDescription,

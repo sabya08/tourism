@@ -1,4 +1,5 @@
-package beans;
+package tourism;
+
 public class Cart {
 	private String id;	
 	private String name;

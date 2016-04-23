@@ -4,7 +4,7 @@
 </head>
 
 <%
- MongoClient mongo = new MongoClient("52.11.50.218", 27017);
+ MongoClient mongo = new MongoClient("localhost", 27017);
 
 			String firstname = request.getParameter("firstname");
             String lastname = request.getParameter("lastname");

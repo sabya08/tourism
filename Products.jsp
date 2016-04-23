@@ -12,7 +12,7 @@
     String imageLocation = " ";
     int productPrice = 0;
   
-          MongoClient mongo = new MongoClient("52.11.50.218", 27017);
+          MongoClient mongo = new MongoClient("localhost", 27017);
                         
             DB db = mongo.getDB("Elextore");
             DBCollection collection = db.getCollection("products");

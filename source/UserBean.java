@@ -1,4 +1,4 @@
-package beans;
+package tourism;
 
 public class UserBean{
   
