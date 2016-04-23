@@ -1,4 +1,4 @@
-<%@include file="header.jsp" %>
+<%@include file="Header.jsp" %>
 <%@include file="footer.jsp" %>
 
 <%@page import="java.util.*" %>
