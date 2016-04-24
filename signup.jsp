@@ -10,8 +10,6 @@
 
  <script type="text/javascript" src="JS/javascript.js"></script>
 
-<link href="css/generic.css" rel="stylesheet" type="text/css" />
-
 <script type="text/javascript">
 
 
@@ -31,10 +29,7 @@ try{
 	}
 %>
 	<br>
-				<div id="container">
-				<%--<div id="wrapper">--%>
-				<div id="sliderFrame">
-
+        <%--<div id="container">--%>
 
         <form action="/tourism/SignUp" method="post" name="signupForm" onsubmit="return validateInfo()">
 
@@ -59,29 +54,18 @@ try{
                     <input type="password" name="password" pattern=".{4,}"placeholder="Password" required/>
                 </div>
                 
-                <div> 
+
                 <input type="submit" name="button" value="Register" />
-                <%--<div id="slider">--%>
-					<%--<a href="images/mainpage/image1.jpg" target="_blank">--%>
-					<%--<img src="images/mainpage/images1.jpg" alt="Welcome to elexTore.com" />--%>
-					<%--</a>--%>
-					<%--<img src="images/mainpage/images2.jpg" alt="" />--%>
-					<%--<img src="images/mainpage/images3.jpg" alt="" />--%>
-					<%--</div>--%>
-            </fieldset>  
+
+            </fieldset>
 
         </form>
-
-
-		</div>
-    </div>
-
     
-				</td>
+        </td>
 			
-			</tr>
+    </tr>
 			
-			</div>
+    </div>
 	
 	</div>
 </body>

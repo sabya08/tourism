@@ -28,13 +28,21 @@
 			<br>
 			<br>
 			<br>
-			Developed By:<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sabya sachi<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aditya kale<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rohit Jadhav<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sushil Pangarkar<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ashish Deshpande<br>		
+			Developed By:
+		<br>
+	<div>
+			<ul id="menu1">
+            <li>Sabya Sachi</li>
+			<li>Aditya Kale</li>
+			<li>Rohit Jadhav</li>
+			<li>Sushil Pangarkar</li>
+			<li>Ashish Deshpande</li>
+			</ul>
+	</div>
 		</p>
+	<br>
+	<br>
+	<br>
 </font>
 	</div>
 </body>
