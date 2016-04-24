@@ -8,7 +8,14 @@
 </head>
 <body>
 <div id="header">
-		  <span id="account"><a href="#">My Account</a></span>
+<br>
+		<ul id="menu">
+			<li style="padding-left:800px;">
+				<a href="signup.jsp">Sign Up &nbsp;&nbsp; |</a>
+				<a href="signin.jsp">Sign In</a>
+			</li>
+			
+		</ul>
         <br>
 <div>
 	<span>
@@ -18,12 +25,14 @@
 	</div>
     </div>
 		<ul id="menu">
-			<li><a href="index.html">Home Page</a></li>
-			<li><a href="index2.html">About Us</a></li>
+			<li><a href="homepage.jsp">Home Page</a></li>
+			<li><a href="aboutus.jsp">About Us</a></li>
 			<li><a href="tripplanner.jsp">Trip Planner</a></li>
 			<li><a href="nearbyAttractions.jsp">Tourist Attraction</a></li>
 			<li><a href="favouriteAttractions.jsp">Favourite List</a></li>
 			<li><a href="contactNearbyTourists.jsp">Connect Nearest Tourist</a></li>
+			<li><a>Search Places:</a></li>
+			<li><input type="text" size="5px;"></li>
 		</ul>
 	<div id="wrapper">
 	</div>
