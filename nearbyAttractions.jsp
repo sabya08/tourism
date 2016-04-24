@@ -62,7 +62,7 @@
         <span></span>
     </div>
 </form>
-                    <a target="_blank" href="http://www.willistower.com/" class="more">more details</a>
+                    <a target="_blank" href="attractionDetails.jsp" class="more">more details</a>
                     <a href="#" class="more">Add to Favourites</a>
 				</div>
 			</div>
