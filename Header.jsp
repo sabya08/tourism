@@ -4,7 +4,7 @@
         <html>
         <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Insert title here</title>
+        <title>Home - Page</title>
         </head>
         <body>
         <div id="header">
@@ -19,8 +19,7 @@
         <br>
         <div>
         <span>
-        <img src="images/tourism/logo.png" width="100px;"></img>
-        <img src="images/tourism/Tourist.jpg" width="580px;"></img>
+	<img src="images/tourism/Tourist.jpg" height="100px;"></img>
         </span>
         </div>
         </div>
