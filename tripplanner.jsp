@@ -16,48 +16,42 @@
 
 <body>
 	<div id="wrapper2">
-		<div id="left">
+		<div id="right">
 				<h2>Featured Flight Booking Sites</h2>
                 
 				<div class="photo">
-					<a href="https://www.kayak.com/"><img src="images/tourism/kayak.JPG" /></a>			  
+					<a target="_blank" href="https://www.kayak.com/"><img src="images/tourism/kayak.JPG" /></a>			  
 				</div>
 				<div class="photo">
-					<a href="https://www.orbitz.com/"><img src="images/tourism/Orbitz.JPG" /></a>
+					<a target="_blank" href="https://www.orbitz.com/"><img src="images/tourism/Orbitz.JPG" /></a>
 				</div>
                 <div class="photo">
-					<a href="https://www.cheapoair.com/"><img src="images/tourism/cheapoair.JPG"  /></a>			  
+					<a target="_blank" href="https://www.cheapoair.com/"><img src="images/tourism/cheapoair.JPG"  /></a>			  
 				</div>
                 <div class="photo">
-					<a href="https://www.expedia.com/"><img src="images/tourism/expedia.JPG"  /></a>			  
-				</div>
-                <div class="photo">
-					<a href="http://www.skyscanner.com/"><img src="images/tourism/skyscanner.JPG"  /></a>			  
+					<a target="_blank" href="https://www.expedia.com/"><img src="images/tourism/expedia.JPG"  /></a>			  
 				</div>
                 <div>
-				    <a href="#" id="more">more flight</a>
+				    <a target="_blank" href="#" id="more">more flight</a>
 			     </div>
         </div>     
 		<div id="right" style="padding-top : 10px">
-				<h2>Featured Flight Hotel Booking Sites</h2>
-				<div class="photo">
-					<img src="images/tourism/airbnb.JPG" alt="" width="194" height="111" /><br />
-					<a href="https://www.airbnb.com/">Airbnb</a>			  
+				<h2>Featured Hotel Booking Sites</h2>
+				
+            <div class="photo">
+					<a target="_blank" href="https://www.airbnb.com/"><img src="images/tourism/airbnb.JPG" alt="" width="194" height="111" /></a>			  
 				</div>
 				<div class="photo">
-					<img src="images/tourism/hotels.JPG" alt="" width="194" height="111" /><br />
-					<a href="http://www.hotels.com/">Hotel.com</a>			  
+					<a target="_blank" href="http://www.hotels.com/"><img src="images/tourism/hotels.JPG" alt="" width="194" height="111" /></a>			  
 				</div>
 				<div class="photo">
-					<img src="images/tourism/agoda.JPG" alt="" width="194" height="111" /><br />
-					<a href="http://www.agoda.com/">Agoda.com</a>			  
+					<a target="_blank"  href="http://www.agoda.com/"><img src="images/tourism/agoda.JPG" alt="" width="194" height="111" /></a>			  
 				</div>
 				<div class="photo">
-					<img src="images/tourism/nomadicmatt.JPG" alt="" width="194" height="111" /><br />
-					<a href="http://www.nomadicmatt.com/travel-blogs/find-cheap-hotel-room/">nomadicmatt</a>			  
+					<a target="_blank" href="http://www.nomadicmatt.com/travel-blogs/find-cheap-hotel-room/"><img src="images/tourism/nomadicmatt.JPG" alt="" width="194" height="111" /></a>			  
 				</div>
 			<div>
-				<a href="#" id="more">more tours</a>
+				<a href="#" id="more">more hotels</a>
 			</div>
 		</div>
 	</div>

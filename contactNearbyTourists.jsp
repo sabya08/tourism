@@ -50,7 +50,7 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
         async defer></script>
-	<div id = "wrapper"></div>
+
 	<div id="wrapper2">
 	<div id = "left">
          <table>

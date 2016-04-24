@@ -21,9 +21,9 @@
 			<li><a href="index.html">Home Page</a></li>
 			<li><a href="index2.html">About Us</a></li>
 			<li><a href="tripplanner.jsp">Trip Planner</a></li>
-			<li><a href="index2.html">Tourist Attraction</a></li>
+			<li><a href="nearbyAttractions.jsp">Tourist Attraction</a></li>
 			<li><a href="index2.html">Favourite List</a></li>
-			<li><a href="index2.html">Connect Nearest Tourist</a></li>
+			<li><a href="contactNearbyTourists.jsp">Connect Nearest Tourist</a></li>
 		</ul>
 	<div id="wrapper">
 	</div>

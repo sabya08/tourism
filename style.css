@@ -302,7 +302,7 @@ margin:0 0 0 2px
 }
 #right{
 float:left;
-padding:300px 0 0 0;
+padding:0px 0 0 0;
 font-family:Arial, Helvetica, sans-serif;
 font-size:11px;
 color:#333333;
@@ -506,4 +506,25 @@ overflow:hidden;
 line-height:0px;
 padding:0px;
 font-size:11px
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #179ADB;
+    color: white;
+}
+
+#map {
+    width: 500px;
+    height: 400px;
 }
